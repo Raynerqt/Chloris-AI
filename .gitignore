@@ -1,0 +1,96 @@
+
+# ==========================
+# PYTHON & SYSTEM JUNK
+# ==========================
+# Sampah kompilasi Python (Wajib ignore)
+__pycache__/
+*.py[cod]
+*$py.class
+
+# File sistem Windows & Mac (Sering nyelip bikin kotor)
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# Settingan VS Code per-user (Beda orang beda setting)
+.vscode/
+.idea/
+
+# ==========================
+# VIRTUAL ENVIRONMENT
+# ==========================
+# Folder library Python (Ukurannya ratusan MB, JANGAN di-upload)
+venv/
+env/
+.venv/
+
+# File rahasia (API Keys) - Bahaya kalau bocor!
+.env
+
+# ==========================
+# PROJECT AI (CHLORIS)
+# ==========================
+# 1. Dataset Gambar (Giga-bytes)
+# Tim lain bisa download sendiri pakai script 'download_data.py'
+datasets/
+
+# 2. Hasil Training YOLO (Log & Backup Model)
+# Folder ini isinya grafik & file temporary yang besar
+runs/
+
+# 3. File Model AI
+# Biasanya >100MB. Kalau file 'best.pt' sudah final dan kecil,
+# nanti bisa kita upload manual. Tapi default-nya kita ignore dulu.
+*.pt
+*.pth
+*.onnx
+
+# 4. Log Error
+*.log
+
+# Miscellaneous
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.build/
+.buildlog/
+.history
+.svn/
+.swiftpm/
+migrate_working_dir/
+
+# IntelliJ related
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# The .vscode folder contains launch configuration and tasks you configure in
+# VS Code which you may wish to be included in version control, so this line
+# is commented out by default.
+#.vscode/
+
+# Flutter/Dart/Pub related
+**/doc/api/
+**/ios/Flutter/.last_build_id
+.dart_tool/
+.flutter-plugins-dependencies
+.pub-cache/
+.pub/
+/build/
+/coverage/
+
+# Symbolication related
+app.*.symbols
+
+# Obfuscation related
+app.*.map.json
+
+# Android Studio will place build artifacts here
+/android/app/debug
+/android/app/profile
+/android/app/release
+
